@@ -1,0 +1,1 @@
+{"version":3,"sources":["../app/scss/globals.scss/layouts.scss"],"names":[],"mappings":"AAAA,KAAK,gCAAgC,CAAC,sBAAsB","file":"layouts.css","sourcesContent":["body{font-family:\"Fitgree\",sans-serif;background:var(--grey)}\n\n/*# sourceMappingURL=file:///c:/Users/Alex%20Cota/Documents/GitHub/blog/dist/layouts.css.map */"]}

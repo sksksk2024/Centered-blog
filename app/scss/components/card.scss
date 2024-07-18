@@ -1,0 +1,67 @@
+@use '../util/' as *;
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: var(--white);
+  border: rem(2) solid;
+  font-size: rem(16);
+  width: 90%; // Adjusted for smaller screens
+  max-width: rem(400); // Keep a max width for larger screens
+  height: auto; // Adjust height as needed
+  padding: rem(20); // Add some padding
+  border-radius: 1rem;
+  box-shadow: rem(12) rem(12) rgba(0, 1, 1, 1);
+  text-align: start;
+}
+
+.card__image {
+  width: 100%; // Make image responsive
+  border-radius: 1rem;
+  margin-bottom: rem(20); // Add some space below the image
+}
+
+.card__date {
+  padding: rem(3);
+  margin-right: rem(145);
+  margin-bottom: rem(20); // Add some space below the date
+}
+
+button {
+  background: var(--yellow);
+  font-weight: 800;
+  font-size: rem(17);
+  font-family: 'Figtree', sans-serif;
+  border-radius: rem(5);
+  margin-right: rem(230);
+  margin-bottom: rem(20); // Add some space below the button
+  height: rem(30);
+  width: rem(80);
+  padding: rem(3);
+}
+
+h2 {
+  margin-right: rem(30);
+  margin-bottom: rem(20); // Add some space below the heading
+}
+
+p {
+  margin-bottom: rem(20); // Add some space below the paragraph
+}
+
+.card__div {
+  margin-right: rem(160);
+  display: flex;
+  align-items: center;
+}
+
+.card__div__avatar {
+  width: rem(45);
+  height: rem(45);
+}
+
+.card__div h4 {
+  margin-left: rem(15);
+}

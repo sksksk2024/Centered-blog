@@ -1,0 +1,24 @@
+@use '../util/' as *;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 30;
+  font-family: 'Figtree', sans-serif;
+}
+
+body {
+  min-height: 100vh; // Full height to center vertically
+  margin: 0;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
