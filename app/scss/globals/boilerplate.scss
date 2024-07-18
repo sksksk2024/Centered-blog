@@ -9,7 +9,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  padding: 0;
   margin: 30;
   font-family: 'Figtree', sans-serif;
 }
@@ -17,6 +16,7 @@ html {
 body {
   min-height: 100vh; // Full height to center vertically
   margin: 0;
+  padding: rem(0);
   background-color: var(--yellow);
   display: flex;
   justify-content: center;
